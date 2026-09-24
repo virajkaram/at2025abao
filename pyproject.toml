@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "at2025abao"
+version = "0.1.0"
+description = "Analysis code, data and notebooks for AT2025abao: spectral analysis and DUSTY neural-network SED modeling."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{ name = "Viraj Karambelkar" }]
+dependencies = [
+    "numpy>=1.26",
+    "scipy>=1.11",
+    "pandas>=2.2",
+    "matplotlib>=3.9",
+    "astropy>=7.0",
+    "torch>=2.2",
+    "emcee>=3.1",
+    "corner>=2.2",
+    "pysynphot>=2.0",
+    "PyAstronomy>=0.24",
+    "pydusty @ git+https://github.com/virajkaram/pydusty.git",
+    "bbFit @ git+https://github.com/virajkaram/bbFit.git",
+    "jupyter",
+    "ipykernel",
+]
+
+# The code in code/ is imported by the notebooks via sys.path, not installed
+# as a package, so there is nothing for setuptools to package.
+[tool.setuptools]
+packages = []
