@@ -9,17 +9,14 @@
 # tdust : Dust shell temperature at inner boundary [K]
 # tdust_min : Lower limit of the dust shell temperature [K]
 # tdust_max : Upper limit of the dust shell temperature [K]
-# tau : Optical depth of the dust shell in the V band
-# tau_min : Lower limit of the optical depth
-# tau_max : Upper limit of the optical depth
-# r1 : Inner radius of the dust shell [cm]
-# r1_min : Lower limit of the inner radius [cm]
-# r1_max : Upper limit of the inner radius [cm]
-# rstar : Stellar photospheric radius [R_sun]
-# rstar_min : Lower limit of the stellar photospheric radius [R_sun]
-# rstar_max : Upper limit of the stellar photospheric radius [R_sun]
+# log_tau : log10 of the optical depth of the dust shell in the V band
+# log_tau_min : Lower limit of log10 of the optical depth
+# log_tau_max : Upper limit of log10 of the optical depth
+# log_r1 : log10 of the inner radius of the dust shell [cm]
+# log_r1_min : Lower limit of log10 of the inner radius [cm]
+# log_r1_max : Upper limit of log10 of the inner radius [cm]
 # 
-MJD,Tstar,Tstar_min,Tstar_max,L,L_min,L_max,tdust,tdust_min,tdust_max,tau,tau_min,tau_max,r1,r1_min,r1_max
+MJD,Tstar,Tstar_min,Tstar_max,L,L_min,L_max,tdust,tdust_min,tdust_max,log_tau,log_tau_min,log_tau_max,log_r1,log_r1_min,log_r1_max
 58400.0,3802.4993169831982,3670.9255068329135,3936.842853545125,8.263450929724136e+37,7.725339524048081e+37,9.500125820227365e+37,1017.5784310609702,765.4137469820691,1277.8227153807647,0.36821781514798835,0.2828257451194536,0.4402677168487041,14.59652513186162,14.350296983770397,14.900238480643655
 58435.75362318841,3789.108853941672,3666.937810857536,3936.8784400603768,8.310244562700503e+37,7.772414386045566e+37,9.410403541552019e+37,1045.0090315741404,776.2185697104273,1293.034115177254,0.35962627611940207,0.26897659015848724,0.4298613275833251,14.566662958482803,14.34046840810471,14.88440415312974
 58471.50724637681,3783.6215830331967,3660.992531788037,3934.247912332856,8.455603780905135e+37,7.873623364941996e+37,9.548745169079956e+37,1030.3273625908248,774.3389865598549,1303.6640884021408,0.3618160362861747,0.2600838484739955,0.4332406828033523,14.587435117969516,14.337238094169399,14.888006115692548
